@@ -1,20 +1,24 @@
-/* RESETS
-    Here you put styles that modify the original behavior CSS/HTML had,
-    for example: list elements come with a little circle that nobody uses anymore.
- */
-ul{margin: 0; padding:0;}
-ul li{list-style: none;}
+body {
+    font-family: monospace;
+}
 
-/* 
-    BEHAVIORAL STYLES
-    for example: .horizontal, .container, .p-1 (for padding one)
-*/
-.p-1{ padding: 10px; }
+.container {
+    max-width: 900px;
+    margin: auto;
+}
 
+ul { 
+    padding: 0;
+    margin: 0;
+}
 
+ul li {
+    list-style: none;
+}
 
-
-/* 
-    SPECIFIC TO YOUR WEBSITE 
-    The more senior you become the less you have specific styles
-*/
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 10px;
+    min-width: 10px;
+}
