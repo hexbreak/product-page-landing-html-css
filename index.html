@@ -8,17 +8,17 @@
 </head>
 <body>
     <div class="container">
-        <div class="navbar">
-            <div class="logo">SHOP LOGO</div>
-            <ul class="menu">
-                <li>Products</li>
-                <li>About</li>
-                <li>My Account</li>
-                <li>Shopping Cart</li>
+        <div class="navbar layout horizontal">
+            <div class="logo p-1">SHOP LOGO</div>
+            <ul class="menu layout horizontal p-1">
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Shopping Cart</a></li>
             </ul>
         </div>
-        <div class="container-two container-menu">
-            <ul class="menu">
+        <div class="breadcrumb p-1">
+            <ul class="menu layout horizontal layout-left">
                 <li>Home</li>
                 <li>/</li>
                 <li>Household Plants</li>
@@ -26,9 +26,23 @@
                 <li>Bonsai</li>
             </ul>
         </div>
-        <div class="product-content">
-            <div class="gallery">
+        <div class="product-content layout horizontal">
+            <div class="gallery w-50 p-1">
                 <div class="main-img img" style="background-image: url('../src/assets/product1.jpeg');"></div>
+                <ul class="layout horizontal">
+                    <li class="img" style="background-image: url('../src/assets/product1.jpeg');"></li>
+                    <li class="img" style="background-image: url('../src/assets/product2.jpeg');"></li>
+                    <li class="img" style="background-image: url('../src/assets/product3.jpeg');"></li>
+                </ul>
+            </div>
+            <div class="product-info w-50 p-1">
+                <h1>Bonsai</h1>
+                <span class="price">$19.99</span>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bidendum risus esc.</p>
+                    <p>Aenaen a hendrerit leo. Pallentesque malesuada aliquet velit, eget viverra justo vimos.</p>
+                </div>
+                <button>Add to Cart</button>
             </div>
         </div>
     </div>
