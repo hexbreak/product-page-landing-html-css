@@ -16,7 +16,7 @@ a {
     color: black;
 }
 
-.p-1 {
+.pad {
     padding: 10px;
 }
 
@@ -70,7 +70,7 @@ button {
     margin-left: 0;
 }
 
-.w-50 {
+.width {
     width: 50%;
 }
 
@@ -94,11 +94,11 @@ button {
     flex-grow: 2;
 }
 
-.breadcrumb {
+.container-two {
     text-transform: uppercase;
 }
 
-.price {
+.pricetag {
     font-size: 20px;
 }
 
